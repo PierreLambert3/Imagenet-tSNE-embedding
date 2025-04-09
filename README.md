@@ -12,7 +12,7 @@ Xld, knn_HD = htSNE(n_components=32, verbose=True, with_gui=False).fit(X, Y, max
                         purpose_is_KNN=False, base_attraction_repulsion_ratio=90.0, end_attrac_mult=0.9, end_kernel_alpha=1.0, lr_strength=16.0)
 
 Likely improvements:
-    - Use more than 192 PCs before tSNE  (but the implementation is limited to 256 dims max, for optimisation reasons related to GPUs)
-    - Hyperparameter tuning on tSNE.
-    - More iterations, here it is the result of just a couple of hundreds iterations.
-    - If we could derive a (weakly supervised -) loss function for neural nets inspired by tSNE, that would be cool. For instance with diffusing labels.
+    - Use more than 192 PCs before tSNE  (but the implementation is limited to 256 dims max, for optimisation reasons related to GPUs)\n
+    - Hyperparameter tuning on tSNE.\n
+    - More iterations, here it is the result of just a couple of hundreds iterations.\n
+    - If we could derive a (weakly supervised -) loss function for neural nets inspired by tSNE, that would be cool. For instance with diffusing labels.\n
