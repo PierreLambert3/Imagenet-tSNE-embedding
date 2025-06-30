@@ -1,6 +1,7 @@
 ﻿# Imagenet-tSNE-embedding
 
-tSNE representation as mentioned in the paper "Neighbour Embeddings: Beyond Visualisation", which was presented and published in MLVis 2025: Machine Learning Methods in Visualisation for Big Data (2025) (https://diglib.eg.org/server/api/core/bitstreams/0050f4f3-cf90-4a55-b282-9a276b564f31/content)
+tSNE representation as mentioned in the paper "Neighbour Embeddings: Beyond Visualisation" by P. Lambert & colleagues, Machine Learning Methods in Visualisation for Big Data (2025) (https://diglib.eg.org/collections/d1dfb060-0146-49af-a115-9151bd985622)
+
 
 The original representation of Imagenet was pulled from the latent space of the EVA vision-language model, that's a 1280-dimensional space. ("EVA: Exploring the Limits of Masked Visual Representation Learning at Scale")
 
