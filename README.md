@@ -1,5 +1,8 @@
 ﻿# Imagenet-tSNE-embedding
 
+IMPORTANT: it seems a git clone doesn't pull the .npy files, but from the web interface of github, you can click on the file name and then click on the small "dowload" button to correctly download the files (156MB for X, 4.9MB for Y).
+ 
+
 tSNE representation as mentioned in the paper "Neighbour Embeddings: Beyond Visualisation" by P. Lambert & colleagues, Machine Learning Methods in Visualisation for Big Data (2025) (https://diglib.eg.org/collections/d1dfb060-0146-49af-a115-9151bd985622)
 
 
@@ -19,3 +22,4 @@ Likely improvements:
     - Hyperparameter tuning on tSNE.\n
     - More iterations, here it is the result of just a couple of hundreds iterations.\n
     - If we could derive a (weakly supervised -) loss function for neural nets inspired by tSNE, that would be cool. For instance with diffusing labels.\n
+
